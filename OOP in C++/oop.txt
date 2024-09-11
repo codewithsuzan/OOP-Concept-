@@ -1,0 +1,15 @@
+why we need object oriented programming?
+    =>Object-oriented programming (OOP) is needed for organizing and structuring complex software systems, promoting code reusability, modularity, encapsulation, polymorphism, and maintainability.
+
+class is a fundamental unit of OOP.It is userdefined data type.
+objects are variable of type class.
+
+Constructor used to initialize an object with some values.This is function which is called when the object is created.Same name as class name.
+
+Destructor is a function which is called when the object is destroyed/deleted.In this function we can't pass any parameters.We can write destructor in that way:
+        ~(class name)
+
+
+Encapsulation is a property of oops which insure binding of methods and variables together into a single unit.(unit-class) .It also leads to abstraction/hiding.
+
+Abstraction is a property of oops which enable us to display only essential information while hiding implementation details.
