@@ -13,3 +13,5 @@ Destructor is a function which is called when the object is destroyed/deleted.In
 Encapsulation is a property of oops which insure binding of methods and variables together into a single unit.(unit-class) .It also leads to abstraction/hiding.
 
 Abstraction is a property of oops which enable us to display only essential information while hiding implementation details.
+
+Inheritance is a process of creating new class called derived class from existing class called base class.

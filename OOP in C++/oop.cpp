@@ -106,10 +106,6 @@
 //     return 0;
 // }
 
-
-
-
-
 // Encapsulation
 
 // #include <iostream>
@@ -136,24 +132,51 @@
 //     return 0;
 // }
 
+// #include<iostream>
+// using namespace std;
+// class ABC{
+//     private:
+//     int x;
+//     public:
+//     void setter(int n){
+//         x=n;
+//     }
+//     int getter(){
+//         return x;
+//     }
+// };
 
-#include<iostream>
-using namespace std;
-class ABC{
-    private:
-    int x;
-    public:
-    void setter(int n){
-        x=n;
-    }
-    int getter(){
-        return x;
-    }
-};
+// int main(){
+//     ABC obj1;
+//     obj1.setter(5);
+//     cout<<obj1.getter()<<endl;
+//     return 0;
+// }
 
-int main(){
-    ABC obj1;
-    obj1.setter(5);
-    cout<<obj1.getter()<<endl;
-    return 0;
-}
+// Inheritance
+// #include<iostream>
+
+// using namespace std;
+
+// class Animal { // Base class
+// public:
+//     void sound() {
+//         cout << "Animal makes a sound." << endl;
+//     }
+// };
+
+// class Dog : public Animal { // Derived class
+// public:
+//     void sound() {
+//         // Call the base class method
+//         Animal::sound();  // This will print "Animal makes a sound."
+//         cout << "Dog barks." << endl; // This will print "Dog barks."
+//     }
+// };
+
+// int main() {
+//     Dog d;
+//     d.sound(); // This will call the Dog's sound method, which also calls Animal's sound method.
+//     return 0;
+// }
+
